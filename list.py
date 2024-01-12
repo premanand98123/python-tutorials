@@ -29,3 +29,14 @@ for i in range(0, n):
 
 print("The list is:", list)
 
+min = list[0]
+idx = 0
+
+for i in range(1,n):
+
+    if(min>list[i]):
+        idx=i
+        min = list[i]
+
+
+print("The lowest element is :",min," and its index is : ",idx)
