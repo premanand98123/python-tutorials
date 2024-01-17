@@ -17,26 +17,67 @@ Q- print the sum of n numbers
 Q- min element for list with its index
 '''
 
-list = []
+# list = []
 
-n = int(input("Enter the size of the list: "))
+# n = int(input("Enter the size of the list: "))
 
-print("Enter the values for the list:")
+# print("Enter the values for the list:")
 
-for i in range(0, n):
-    element = int(input())
-    list.append(element)
+# for i in range(0, n):
+#     element = int(input())
+#     list.append(element)
 
-print("The list is:", list)
+# print("The list is:", list)
 
-min = list[0]
-idx = 0
+# min = list[0]
+# idx = 0
 
-for i in range(1,n):
+# for i in range(1,n):
 
-    if(min>list[i]):
-        idx=i
-        min = list[i]
+#     if(min>list[i]):
+#         idx=i
+#         min = list[i]
 
 
-print("The lowest element is :",min," and its index is : ",idx)
+# print("The lowest element is :",min," and its index is : ",idx)
+
+'''
+find element in the list
+
+'''
+# list = []
+
+# n = int(input("Enter the size of the list: "))
+
+# print("Enter the values for the list:")
+
+
+'''
+find the second largest element of the list
+
+[2,5,7,9,10] 
+op- 9
+
+'''
+
+
+'''
+tuples start from here
+'''
+# tu = (1,2,2,3,4,5,'a')
+
+# # tu[0]=9
+
+# print(tu[0:6])
+
+
+def sum (a,b):
+    s = a+b
+    return s
+
+def diff(a,b):
+    d = a-b
+    return d
+
+# print(sum(10,6))
+print(diff(10,5))
