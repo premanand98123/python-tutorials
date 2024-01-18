@@ -71,13 +71,24 @@ tuples start from here
 # print(tu[0:6])
 
 
-def sum (a,b):
-    s = a+b
-    return s
+# def sum (a,b):
+#     s = a+b
+#     return s
 
-def diff(a,b):
-    d = a-b
-    return d
+# def diff(a,b):
+#     d = a-b
+#     return d
 
-# print(sum(10,6))
-print(diff(10,5))
+# # print(sum(10,6))
+# print(diff(10,5))
+
+
+# Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+
+
+Dict = {1: 'Geeks', 2: 'For',
+        3: {'A': 'Welcome', 'B': 'To', 'C': 'Geeks'}}
+print(Dict[3]['A'])
+
+Dict[1] = 'hello'
+print(Dict[1])
